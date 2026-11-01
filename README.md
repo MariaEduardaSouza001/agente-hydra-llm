@@ -7,7 +7,7 @@
 ![OWASP](https://img.shields.io/badge/seguran%C3%A7a-OWASP%20Agentic%20Top%2010-555)
 ![Testes](https://img.shields.io/badge/testes-51%20casos-2E7D32)
 
-Projeto em grupo da disciplina **IA Aplicada com LLMs e Agentes** (Centro Universitário Senac), construído sobre o **Hydra**, o sistema de PDV e estoque do nosso TCC.
+Projeto em grupo da disciplina **IA Aplicada com LLMs e Agentes** (Centro Universitário Senac), construído sobre o **Hydra**, o sistema de PDV e estoque do nosso TCC ([repositório do TCC](https://github.com/AlefKaique/TCC--Senac---Sistemas-de-Informa-o)).
 
 > **O problema:** o dono de um mercado de bairro não consegue perguntar ao sistema o que vence, o que está acabando ou o que está parado, e não tem onde registrar o que decidiu acompanhar.
 
@@ -164,7 +164,7 @@ avaliacao/    plano de avaliação (aula 11)
 seguranca/    análise de riscos OWASP agêntico (aula 14)
 ```
 
-Alguns documentos citam arquivos do sistema completo (`Hydra.Front`, `Hydra.Back`, `Hydra.Agent`), que ficam no repositório original.
+Alguns documentos citam arquivos do sistema completo (`Hydra.Front`, `Hydra.Back`, `Hydra.Agent`). A versão atualizada do sistema (front-end, back-end e documentação técnica) está no [repositório do TCC](https://github.com/AlefKaique/TCC--Senac---Sistemas-de-Informa-o); o `Hydra.Agent` fica no repositório original da disciplina.
 
 ## Próximos passos
 
@@ -181,6 +181,11 @@ Alguns documentos citam arquivos do sistema completo (`Hydra.Front`, `Hydra.Back
 | Felipe Claudiano Synthes | [@BoruCode](https://github.com/BoruCode) |
 | Maria Eduarda Leonardo De Souza | [@MariaEduardaSouza001](https://github.com/MariaEduardaSouza001) |
 
-Este repositório reúne a parte do agente do projeto em grupo. O repositório original, com o histórico completo e o sistema Hydra inteiro, é o [BoruCode/PROJETOLLM.HYDRA](https://github.com/BoruCode/PROJETOLLM.HYDRA). Material da disciplina: [celsocrivelaro/senac-agentes-llm](https://github.com/celsocrivelaro/senac-agentes-llm).
+Este repositório reúne a parte do agente do projeto em grupo.
+
+| Repositório | O que tem |
+|---|---|
+| [AlefKaique/TCC--Senac---Sistemas-de-Informa-o](https://github.com/AlefKaique/TCC--Senac---Sistemas-de-Informa-o) | **TCC atualizado**: o sistema Hydra (front-end, back-end) e a documentação técnica da entrega 2 |
+| [BoruCode/PROJETOLLM.HYDRA](https://github.com/BoruCode/PROJETOLLM.HYDRA) | repositório original da disciplina de LLMs, com o histórico completo do agente | Material da disciplina: [celsocrivelaro/senac-agentes-llm](https://github.com/celsocrivelaro/senac-agentes-llm).
 
 Licença MIT, mantida do projeto original ([`LICENSE`](LICENSE)).
