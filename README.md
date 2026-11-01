@@ -7,7 +7,7 @@
 ![OWASP](https://img.shields.io/badge/seguran%C3%A7a-OWASP%20Agentic%20Top%2010-555)
 ![Testes](https://img.shields.io/badge/testes-51%20casos-2E7D32)
 
-Projeto em grupo da disciplina **IA Aplicada com LLMs e Agentes** (Centro Universitário Senac), construído sobre o **Hydra**, o sistema de PDV e estoque do nosso TCC ([repositório do TCC](https://github.com/AlefKaique/TCC--Senac---Sistemas-de-Informa-o)).
+Projeto em grupo da disciplina **IA Aplicada com LLMs e Agentes** (Centro Universitário Senac), construído sobre o **Sistema Hydra**, o PDV com controle de estoque que desenvolvemos como TCC ([repositório do TCC](https://github.com/AlefKaique/TCC--Senac---Sistemas-de-Informa-o)).
 
 > **O problema:** o dono de um mercado de bairro não consegue perguntar ao sistema o que vence, o que está acabando ou o que está parado, e não tem onde registrar o que decidiu acompanhar.
 
@@ -109,14 +109,20 @@ flowchart TD
 
 ## Minha contribuição
 
-Sou **Maria Eduarda Leonardo De Souza** e, no grupo, fiquei com:
+Sou **Maria Eduarda Leonardo De Souza** e participei das duas frentes do projeto.
+
+No **agente** (disciplina de LLMs):
 
 - **Case e justificativa de negócio** ([`docs/case.md`](docs/case.md)): o problema, os perfis de usuário, as regras de domínio, os casos difíceis, o ganho esperado e o maior risco do projeto com o plano B.
 - **Arquitetura e workflow** ([`docs/arquitetura.md`](docs/arquitetura.md)): quem decide em cada passo, as ferramentas e a separação entre o que é regra do código e o que é escolha do modelo.
 - **Prompts de sistema v1 e v2** ([`prompts/`](prompts/)): as regras, o formato de saída e a evolução de 3 de 5 para 5 de 5 casos.
 - **Base de conhecimento para RAG** ([`docs/base-de-conhecimento-v1.md`](docs/base-de-conhecimento-v1.md)): o mapeamento das fontes, o que entra e o que fica de fora do índice e a estratégia de *chunking*.
 - **Análise de segurança** ([`seguranca/aula14-riscos.md`](seguranca/aula14-riscos.md)): os dez riscos do OWASP agêntico no case e o risco aceito.
-- **Documentação técnica do TCC** do sistema Hydra.
+
+No **TCC (Sistema Hydra)**:
+
+- **Responsável pela documentação técnica** do sistema: regras de negócio, requisitos, descrição das telas, Termo de Uso e Política de Privacidade. É a mesma documentação que serve de fonte para a base de conhecimento do agente.
+- **Apoio na formulação e na construção do front-end** (`Hydra.Front`).
 
 ### O que aprendi
 
@@ -185,7 +191,7 @@ Este repositório reúne a parte do agente do projeto em grupo.
 
 | Repositório | O que tem |
 |---|---|
-| [AlefKaique/TCC--Senac---Sistemas-de-Informa-o](https://github.com/AlefKaique/TCC--Senac---Sistemas-de-Informa-o) | **TCC atualizado**: o sistema Hydra (front-end, back-end) e a documentação técnica da entrega 2 |
+| [AlefKaique/TCC--Senac---Sistemas-de-Informa-o](https://github.com/AlefKaique/TCC--Senac---Sistemas-de-Informa-o) | **TCC atualizado: Sistema Hydra** (front-end, back-end) e a documentação técnica da entrega 2 |
 | [BoruCode/PROJETOLLM.HYDRA](https://github.com/BoruCode/PROJETOLLM.HYDRA) | repositório original da disciplina de LLMs, com o histórico completo do agente | Material da disciplina: [celsocrivelaro/senac-agentes-llm](https://github.com/celsocrivelaro/senac-agentes-llm).
 
 Licença MIT, mantida do projeto original ([`LICENSE`](LICENSE)).
